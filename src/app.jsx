@@ -1,4 +1,5 @@
 import React from "react";
+import avatarImg from "./assets/avatar.png";
 import { motion, AnimatePresence, useMotionValue, useSpring } from "framer-motion";
 import {
   useTweaks,
@@ -277,7 +278,7 @@ function AnimatedAvatar({ accent }) {
       />
       <Tilt3D strength={10} style={{ width: "100%", height: "100%" }}>
         <div className="avatar-frame">
-          <img src="/src/assets/avatar.png" alt="Cleber Cardoso" />
+          <img src={avatarImg} alt="Cleber Cardoso" />
         </div>
       </Tilt3D>
       <div className="avatar-corners">
