@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.playwright-mcp/
+uploads/
+*.png
+!src/assets/*.png
+scraps/
