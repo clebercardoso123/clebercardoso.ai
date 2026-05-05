@@ -77,7 +77,7 @@ const Icon = {
 const LINKS = [
   { id: "whatsapp", title: "Fale comigo", sub: "WhatsApp · resposta direta", handle: "+55 62 98229-1074", href: "https://wa.me/5562982291074", icon: "whatsapp", tag: "primary" },
   { id: "instagram", title: "Instagram", sub: "bastidores, tutoriais, projetos", handle: "@clebercardoso.ia", href: "https://instagram.com/clebercardoso.ai", icon: "instagram" },
-  { id: "site", title: "Site oficial", sub: "em construção · acesse o preview", handle: "omnis-ai-sable.vercel.app", href: "https://omnis-ai-sable.vercel.app/", icon: "globe" },
+  { id: "site", title: "Site oficial", sub: "soluções em automação & IA", handle: "omnis-ai-sable.vercel.app", href: "https://omnis-ai-sable.vercel.app/", icon: "globe" },
 ];
 
 // ── Custom cursor with spring physics ──────────────────────────────────────
