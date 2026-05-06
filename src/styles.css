@@ -216,7 +216,14 @@ body {
   -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.name-dot { color: var(--accent); -webkit-text-fill-color: var(--accent); }
+/* AnimatedText quebra a palavra em spans por letra — propaga o gradiente */
+.name-line-accent > span {
+  background: inherit;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.name-dot { color: var(--accent); -webkit-text-fill-color: var(--accent); background: none; }
 
 .tagline {
   display: flex; align-items: center; gap: 8px;
